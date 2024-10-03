@@ -4,6 +4,7 @@ import './index.css'
 
 const LatestMatch = props => {
   const {latestMatchData} = props
+  if (!latestMatchData) return null
   console.log(props)
   const {
     competingTeam,
